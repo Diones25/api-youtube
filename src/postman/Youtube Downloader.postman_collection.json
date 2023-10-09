@@ -1,0 +1,33 @@
+{
+	"info": {
+		"_postman_id": "8c91e3ca-1fc6-458d-bb96-bc271b767727",
+		"name": "Youtube Downloader",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15952256",
+		"_collection_link": "https://diones32.postman.co/workspace/Workspace-Diones~6db78dad-ecc5-419b-926f-36f6909bb4c5/collection/15952256-8c91e3ca-1fc6-458d-bb96-bc271b767727?action=share&source=collection_link&creator=15952256"
+	},
+	"item": [
+		{
+			"name": "download",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3333?url=https://www.youtube.com/watch?v=a4eszeLtQag%26ab_channel=TheFoca",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3333",
+					"query": [
+						{
+							"key": "url",
+							"value": "https://www.youtube.com/watch?v=a4eszeLtQag&ab_channel=TheFoca"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
